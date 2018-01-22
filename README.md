@@ -1,1 +1,1 @@
-# rock-paper-scissors
+The creation of a Rock-paper-scissors game following The Odin Project.
