@@ -1,0 +1,133 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #eaf2ea;
+	width: 100%;
+}
+
+.header {
+	text-align: center;
+	margin: 20px 0 10px 0;
+	font-family: 'Cabin', sans-serif;
+}
+
+.header h3 {
+	margin-top: 10px;
+}
+
+.player, .computer, .player-results, .computer-results {
+	display: inline-block;
+	width: 49.5%;
+}
+
+.player {
+	float: left;
+}
+
+.computer {
+	float: right;
+}
+
+.game-btn {
+	height: 127px;
+	margin-top: 5px;
+	border: 5px solid black;
+}
+
+.unselected:hover {
+	cursor: pointer;
+}
+
+.selected {
+	background-color: #ff703d;
+}
+
+.player-btn {
+	border-radius: 0 65px 65px 0;
+}
+
+.computer-btn {
+	border-radius: 65px 0 0 65px;
+}
+
+.game-btn img, .game-btn p {
+	display: inline;
+	position: relative;
+}
+
+.player-btn p {
+	left: 10%;
+	bottom: 20%;
+}
+
+.player-btn .paper {
+	left: 7%;
+}
+
+.player-btn .scissors {
+	left: 0;
+}
+
+.computer-btn img {
+	position: absolute;
+	z-index: 1;
+	right: 0;
+}
+
+.computer-btn p {
+	bottom: 10%;
+	left: 17%;
+}
+
+.computer-btn .paper {
+	left: 15%;
+}
+
+.computer-btn .scissors {
+	left: 5%;
+}
+
+.player-btn p, .computer-btn p {
+	font-size: 100px;
+	font-family: 'Permanent Marker', cursive;
+}
+
+.player-results, .computer-results {
+	margin-top: 10px;
+	text-align: center;
+	font-family: 'Cabin', sans-serif;
+	font-size: 20px;
+}
+
+.player-score, .computer-score {
+	font-size: 25px;
+}
+
+#game-end {
+	position: absolute;
+	width: 100%;
+	top: 550px;
+	text-align: center;
+	font-family: 'Cabin', sans-serif;
+	font-size: 30px;
+	display: none;
+}
+
+#round-btn {
+	background-color: #4389f9;
+	border-radius: 3px;
+	margin: 0 auto;
+	margin-top: 15px;
+	width: 8%;
+	padding: 5px 0;
+	text-align: center;
+	font-family: 'Cabin', sans-serif;
+	font-size: 15px;
+}
+
+#round-btn:hover {
+	cursor: pointer;
+}
